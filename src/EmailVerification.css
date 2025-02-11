@@ -1,0 +1,57 @@
+.container {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+  
+    background: white;
+  }
+  
+  .email-image {
+    width: 100px;
+    margin: 20px 0;
+  }
+  
+  .resend-text {
+ 
+    cursor: pointer;
+  }
+  
+  .verify-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .input-container {
+    position: relative; /* To position elements inside it */
+    width: 100%;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 90px; /* Add space for the button inside the input */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .resend-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #181b56;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  
